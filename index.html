@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>秘密 · 技术支持</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 32px 18px 64px;
+    background: linear-gradient(160deg, #0a1020 0%, #14223a 100%);
+    color: #e6edf7;
+    font: 16px/1.85 -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header { text-align: center; padding: 12px 0 28px; }
+  .logo {
+    width: 72px; height: 72px; margin: 0 auto 14px; border-radius: 20px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 34px; font-weight: 700; color: #0a1020;
+    background: linear-gradient(135deg, #60cee8, #3f8fd0);
+  }
+  h1 { margin: 0; font-size: 26px; letter-spacing: 3px; }
+  .sub { margin: 8px 0 0; color: #9eb4cd; font-size: 14px; }
+  h2 { margin: 34px 0 12px; font-size: 18px; color: #60cee8; }
+  details {
+    background: rgba(255,255,255,.04); border: 1px solid rgba(125,180,230,.22);
+    border-radius: 12px; padding: 12px 16px; margin: 10px 0;
+  }
+  details[open] { background: rgba(96,206,232,.07); }
+  summary { cursor: pointer; font-weight: 600; outline: none; }
+  details p { margin: 10px 0 2px; color: #c3d3e6; }
+  a { color: #60cee8; }
+  .card {
+    background: rgba(255,255,255,.04); border: 1px solid rgba(125,180,230,.22);
+    border-radius: 12px; padding: 16px 18px;
+  }
+  footer {
+    margin-top: 44px; padding-top: 18px; text-align: center;
+    border-top: 1px solid rgba(125,180,230,.18);
+    color: #8298b3; font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">秘</div>
+    <h1>秘密</h1>
+    <p class="sub">本地加密的隐私保险箱 · 技术支持</p>
+  </header>
+
+  <h2>常见问题</h2>
+
+  <details open>
+    <summary>忘记密码了怎么办？</summary>
+    <p>如果之前设置过「安全码」，在解锁页点「忘记密码 / 重置」，输入安全码即可重设密码，数据不会丢失。<br>
+    如果没有设置过安全码，则无法找回（数据是加密保存的，我们也没有办法解密），请以打包备份为准。</p>
+  </details>
+
+  <details>
+    <summary>我的数据保存在哪里？</summary>
+    <p>只保存在你自己的设备上，并且是加密存储的。软件不上传数据到任何由我们运营的服务器，也不需要注册账号。</p>
+  </details>
+
+  <details>
+    <summary>换新手机，怎么把数据迁过去？</summary>
+    <p>旧手机：设置 → 存储 → 打包数据，导出一个加密包。<br>
+    新手机：设置 → 存储 → 导入打包，选择该文件并输入打包时的密码即可恢复。<br>
+    建议定期打包备份（加密包请妥善保管）。</p>
+  </details>
+
+  <details>
+    <summary>加密后的文件在别的软件里打不开了？</summary>
+    <p>这是正常的：文件加密采用原位覆盖，加密后在其它软件里无法打开或播放，需要在本软件内输入当时的密码还原。</p>
+  </details>
+
+  <details>
+    <summary>换了设备，之前购买的高级版还在吗？</summary>
+    <p>在。使用购买时同一个 Apple ID，在「高级版」页面点「恢复购买」即可恢复。</p>
+  </details>
+
+  <details>
+    <summary>为什么没有悬浮球 / 实时截屏功能？</summary>
+    <p>这两项依赖安卓系统的悬浮窗能力，iOS 系统不支持，因此只在安卓版提供。</p>
+  </details>
+
+  <details>
+    <summary>软件会收集我的信息吗？</summary>
+    <p>不会。不收集、不上传、不含广告或统计 SDK。详见
+    <a href="./privacy.html">隐私政策</a>。</p>
+  </details>
+
+  <h2>联系我们</h2>
+  <div class="card">
+    <p>使用中遇到问题、发现 Bug，或有功能建议，欢迎发邮件：<br>
+    <b>1036116184@qq.com</b></p>
+    <p style="margin-bottom:0">我们通常会在 1-2 个工作日内回复。</p>
+  </div>
+
+  <footer>
+    © 2026 秘密 · <a href="./privacy.html">隐私政策</a>
+  </footer>
+</div>
+</body>
+</html>
