@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>秘密 · 隐私政策</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 32px 18px 64px;
+    background: linear-gradient(160deg, #0a1020 0%, #14223a 100%);
+    color: #e6edf7;
+    font: 16px/1.9 -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 24px; letter-spacing: 2px; margin: 0 0 6px; }
+  .date { color: #8298b3; font-size: 13px; margin: 0 0 26px; }
+  h2 { margin: 30px 0 10px; font-size: 17px; color: #60cee8; }
+  p, li { color: #d3e0ef; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 15px; }
+  th, td {
+    border: 1px solid rgba(125,180,230,.22); padding: 9px 12px; text-align: left;
+    color: #d3e0ef;
+  }
+  th { background: rgba(96,206,232,.09); color: #e6edf7; font-weight: 600; }
+  a { color: #60cee8; }
+  .card {
+    background: rgba(255,255,255,.04); border: 1px solid rgba(125,180,230,.22);
+    border-radius: 12px; padding: 14px 18px; margin: 18px 0;
+  }
+  .en { color: #9eb4cd; font-size: 14px; }
+  footer {
+    margin-top: 44px; padding-top: 18px; text-align: center;
+    border-top: 1px solid rgba(125,180,230,.18);
+    color: #8298b3; font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>隐私政策</h1>
+  <p class="date">生效日期：2026 年 1 月 1 日 · 更新日期：2026 年 1 月 1 日</p>
+
+  <div class="card">
+    <b>一句话总结：</b>「秘密」是一款本地单机应用。我们不收集你的任何个人信息，
+    你的记录、密码与文件都只保存在你自己的设备上，不会上传到任何由我们运营的服务器。
+  </div>
+
+  <h2>1. 适用范围</h2>
+  <p>本隐私政策适用于「秘密」移动应用（以下简称"本应用"）。使用本应用即表示你已阅读并同意本政策。</p>
+
+  <h2>2. 我们收集的信息</h2>
+  <p><b>我们不收集任何个人信息。</b>具体而言：</p>
+  <ul>
+    <li>不需要注册账号，不获取你的姓名、手机号、邮箱或身份证件信息；</li>
+    <li>不获取你的通讯录、短信、通话记录、精确位置；</li>
+    <li>不包含广告 SDK、第三方统计 SDK 或数据分析 SDK；</li>
+    <li>不向任何第三方出售、出租或共享你的数据。</li>
+  </ul>
+
+  <h2>3. 你的数据保存在哪里</h2>
+  <ul>
+    <li>你创建的所有内容（文字、资料、密码、分类等）以<b>加密形式保存在你的设备本地</b>；</li>
+    <li>加密密钥由你的密码派生，密码本身不会被保存，我们也无法获取；</li>
+    <li>卸载本应用或删除数据后，本地数据即被删除，我们无法为你恢复。</li>
+  </ul>
+
+  <h2>4. 系统权限说明</h2>
+  <p>本应用只在实现对应功能时申请必要权限，均不会用于收集或上传信息：</p>
+  <table>
+    <tr><th>权限</th><th>用途</th></tr>
+    <tr><td>相机</td><td>在编辑内容时拍照并插入图片</td></tr>
+    <tr><td>照片 / 文件</td><td>插入图片、选择需要加密的文件</td></tr>
+    <tr><td>指纹 / 面容 ID</td><td>用于解锁本应用（验证在你设备本地完成）</td></tr>
+    <tr><td>通知（如启用）</td><td>仅用于本应用自身的提醒</td></tr>
+  </table>
+  <p>以上权限均可在系统设置中随时关闭；关闭后对应功能不可用，但不影响其它功能。</p>
+
+  <h2>5. 应用内购买</h2>
+  <p>「高级版」通过 Apple App Store 的应用内购买完成。支付与订单信息由 Apple 处理，
+  我们<b>不会接触、也不会存储</b>你的支付方式或银行卡信息。购买凭证的校验在本机与 Apple 服务之间完成。</p>
+
+  <h2>6. 网络与同步</h2>
+  <ul>
+    <li>本应用<b>不包含由我们运营的服务器</b>，不会自动上传你的任何数据；</li>
+    <li>如你选择使用"服务器同步"功能，需要自行搭建同步服务。此时数据仅在你的设备与你自建的服务器之间传输，且内容<b>始终为加密状态</b>；</li>
+    <li>我们不接触、也无法解密该服务上的数据。</li>
+  </ul>
+
+  <h2>7. 数据安全</h2>
+  <p>我们采用行业通行的加密方案保护本地数据（AES-256 加密，密码经 PBKDF2 高迭代次数派生）。
+  但请注意：<b>请务必牢记你的密码与安全码</b>，由于我们不持有任何密钥，密码丢失后我们无法为你解密或恢复数据。</p>
+
+  <h2>8. 未成年人</h2>
+  <p>本应用不面向 13 周岁以下儿童，也不会主动收集儿童的个人信息。</p>
+
+  <h2>9. 政策更新</h2>
+  <p>如本政策有重大变更，我们会在本页面更新并修订"更新日期"。继续使用即视为接受更新后的政策。</p>
+
+  <h2>10. 联系我们</h2>
+  <p>如对本政策有任何疑问，请联系：<b>1036116184@qq.com</b></p>
+
+  <h2>English Summary</h2>
+  <p class="en">
+    "秘密" (Secret) is a fully local, offline privacy manager. <b>We do not collect any personal
+    data.</b> All your notes, passwords and files are stored encrypted on your own device only and
+    are never uploaded to any server operated by us. Camera / photo / file permissions are used
+    solely to let you insert images and choose files to encrypt; biometric permission is used for
+    local unlocking. In-app purchases are processed by Apple, and we never receive your payment
+    information. If you choose to use the optional sync feature, you must host the server yourself
+    and all data remains encrypted in transit and at rest. Contact: 1036116184@qq.com
+  </p>
+
+  <footer>
+    © 2026 秘密 · <a href="./index.html">技术支持</a>
+  </footer>
+</div>
+</body>
+</html>
